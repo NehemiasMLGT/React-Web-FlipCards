@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  width: 100px;
+}
+
+.appWrapper {
+  padding: 20px;
+}
+
+.headerWrapper {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.cardWrapper {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardFront {
+  width: 120px;
+  height: 150px;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  border:  solid black;
+  border-radius: 5%;
+  box-shadow: 5px 5px gray;
+}
+
+.cardFront:hover {
+  box-shadow: 5px 5px black;
+}
+
+.der{
+  width: 120px;
+  height: 150px;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  border:  solid black;
+  border-radius: 5%;
+  border-style: dashed;
+  box-shadow: 5px 5px green;
+}
+
+.die{
+  width: 120px;
+  height: 150px;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  border:  solid black;
+  border-radius: 5%;
+  border-style: dashed;
+  box-shadow: 5px 5px red;
+}
+
+.das{
+  width: 120px;
+  height: 150px;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  border:  solid black;
+  border-radius: 5%;
+  border-style: dashed;
+  box-shadow: 5px 5px blue;
+}

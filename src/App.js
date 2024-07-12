@@ -16,7 +16,6 @@ const cardList = [
 ];
 
 function App() {
-  //const [cardList, setCardList] = useState([]);
   return (
     <div className="appWrapper">
       <Header /> 
